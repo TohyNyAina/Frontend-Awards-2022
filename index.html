@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div id="navbar">
+        <div class="navigation">
+            <ul>
+
+                <li class="list ">
+                    
+                    <a href="#">
+                        <span class="icon">
+                           <img src="./assets/icon/home.png" alt="" width="25px" height="25px">
+                        </span>
+                        <span class="list" style="padding-top: 17px;">Accueil</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="about.html">
+                        <span class="icon">
+                            <img src="./assets/icon/about.png" alt="" width="25px" height="25px">
+                        </span>
+                        <span class="title" style="padding-top: 15px;">A propos</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="assets/pdf/Reglement.pdf">
+                        <span class="icon">
+                            <img src="./assets/icon/reglement.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="title" style="padding-top: 15px;">Reglement</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="Evènement.html">
+                        <span class="icon">
+                            <img src="./assets/icon/event.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="title" style="padding-top: 15px;">Evenement</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <img src="./assets/icon/inscription.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="title" style="padding-top: 15px;">Inscription</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="contact.html">
+                        <span class="icon">
+                            <img src="./assets/icon/contact.png" alt="" width="25px" height="25px">
+                        </span>
+                        <span class="title" style="padding-top: 15px;">Contact</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div id="home">
+        <a href="#">
+        <div id="logo">  
+                <img src="assets/images/logo.png" alt="" srcset="" id="logo_tech">
+        </div>
+        </a>
+        <h1>Bienvenue</h1>
+        
+        <div>
+            
+            
+            <section>
+                
+                <div class="content">
+                    
+                    <h2 class="text" data-text="AWARDS">
+                       FRONTEND 
+                    </h2>
+                   
+                 </div>
+                 
+            </section>
+            
+        </div>
+        
+        </div>
+        <div class="button">
+            <button class="modal-btn">S'INSCRIRE</button>
+        </div>
+        
+    
+<!--  inscription -->
+<div class="modal-bg" id="inscription">
+    <div action="" class="modal">
+        <img src="assets/images/avatar.png" alt="">
+            <div class="blog">
+                <h2>Inscription</h2>
+                <div class="input-group">   
+                    <input type="text" name="email" id="" value="" required>
+                    <label for="loginUsers">Email *</label>
+                </div>
+                <div class="input-group">   
+                    <input type="text" name="name" id="" value="" required>
+                    <label for="loginUsers">Nom du TEAM *</label>
+                </div>
+                <div class="input-group">   
+                    <input type="text" name="email" id="" value="" required>
+                    <label for="loginUsers">Numero téléphone *</label>
+                </div>
+                <div class="input-group">   
+                    <input type="text" name="numero" id="" value="" required>
+                    <label for="loginUsers">Réference Orange money *</label>
+                </div>
+                
+                <div class="input-group">   
+                    <input type="text" name="Email" id="" value="" required>
+                    <label for="loginUsers">Membre de l'équipe *</label>
+                </div>
+            
+            </div>
+        <div class="button">
+         <a href="list-inscrit.html">   <button class="inscrire">S'INSCRIRE</button></a>
+        </div>
+    
+            
+
+</div>
+    <span class="modal-close">X</span>
+<!--  inscription -->
+    
+<script src="assets/js/JS.js"></script>
+    
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script>
+    const list = document.querySelectorAll('.list')
+    function activeLink() {
+        list.forEach((item) =>
+            item.classList.remove('active'));
+        this.classList.add('active')
+    }
+    list.forEach((item) =>
+        item.addEventListener('click', activeLink));
+</script>
+</body>
+
+</html>

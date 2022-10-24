@@ -1,0 +1,109 @@
+
+.hidd{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(231, 225, 225);
+    border-radius: 60px;
+}
+
+.imge{
+    width: 100%;
+    border-radius: 60px;
+}
+
+.txt{
+    text-align: center;
+    font-size: 20px;
+}
+
+.but{
+    text-align: center;
+    padding: 10px 80px;
+    background-color: #5d9043;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+
+.form h6{
+    text-align: center;
+    font-size: 15px;
+}
+
+.lor{
+    margin-top: 25px;
+    margin-bottom: -20px;
+    position: relative;
+    width: 350px;
+    margin-left: 75px;
+    
+}
+
+.vis{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.5);
+    color: beige;
+    width: 350px;
+    height: 300px;
+    opacity: 0;
+    border-radius: 66px;
+    
+}
+
+.txte{
+    margin-top: 300px;
+    margin-left: 70px;
+    font-size: 30px;
+}
+
+.Cmc{
+    margin-top: 0px;
+    margin-left: 50px;
+    text-align: center;
+    padding: 10px 80px;
+    background-color: #5d9043;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.Cmc:hover{
+    background-color: orange;
+}
+
+.vis h6{
+    padding-left: 10px;
+    
+}
+
+.vis:hover{
+    opacity: 1;
+}
+
+.lor h6{
+    font-size: 15px;
+    margin-top: 30px;
+}
+.Even{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #0078B8;
+    font-size: 50px;
+}
+.mihisaka{
+    margin-left: -5%;
+    height: 1000px;
+}

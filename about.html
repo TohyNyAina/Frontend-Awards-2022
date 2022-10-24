@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div id="navbar">
+        <div class="navigation">
+            <ul>
+
+                <li class="list ">
+                    <a href="index.html">
+                        <span class="icon">
+                            <img src="./assets/icon/home.png" alt="" width="25px" height="25px">
+                        </span>
+                        <span class="list" style="padding-top: 15px;">Accueil</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="about.html">
+                        <span class="icon">
+                            <img src="./assets/icon/about.png" alt="" width="25px" height="25px">
+                        </span>
+                        <span class="title" style="padding-top: 15px;">A propos</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="assets/pdf/Reglement.pdf">
+                        <span class="icon">
+                            <img src="./assets/icon/reglement.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="title" style="padding-top: 15px;">Reglement</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="Evènement.html">
+                        <span class="icon">
+                            <img src="./assets/icon/event.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="title" style="padding-top: 17px;">Evenement</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="index.html">
+                        <span class="icon">
+                            <img src="./assets/icon/inscription.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="title" style="padding-top: 17px;">Inscription</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="contact.html">
+                        <span class="icon">
+                            <img src="./assets/icon/contact.png" alt="" width="25px" height="25px">
+                        </span>
+                        <span class="title" style="padding-top: 15px;">Contact</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="body">
+        <div class="po">
+            <div id="logo3"><a href=""><img src="/assets/images/Frontend.png" alt=""></a></div>
+
+
+            <div class="content">
+
+                <h2 class="text" data-text="NOS PARTENAIRES">
+                    En partenariat avec :
+                </h2>
+
+            </div>
+
+            <div class="divimg">
+                <img src="assets/images/bocasay.png" alt="" width="200px" height="200px" class="img1">
+                <img src="assets/images/pulse.png" alt="" width="200px" height="200px" class="img1">
+                <img src="assets/images/novity.jpg" alt="" width="200px" height="200px" class="img1">
+                <img src="assets/images/myagency.png" alt="" width="200px" height="200px" class="img1">
+            </div>
+        </div>
+
+
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <script>
+            const list = document.querySelectorAll('.list')
+            function activeLink() {
+                list.forEach((item) =>
+                    item.classList.remove('active'));
+                this.classList.add('active')
+            }
+            list.forEach((item) =>
+                item.addEventListener('click', activeLink));
+        </script>
+</body>
+
+</html>
